@@ -103,6 +103,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+
 The challenge I had for improving this app is trying to link the detail of the superhero movies.
 
 ## License
