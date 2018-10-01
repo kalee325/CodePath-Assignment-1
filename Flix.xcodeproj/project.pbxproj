@@ -19,6 +19,8 @@
 		64BB37AD213F87D5001AF36A /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BB37AC213F87D5001AF36A /* FlixUITests.swift */; };
 		64BB37C1213FDCDE001AF36A /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BB37C0213FDCDE001AF36A /* NowPlayingViewController.swift */; };
 		64BB37C32140A5F7001AF36A /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BB37C22140A5F7001AF36A /* MovieCell.swift */; };
+		64E8C6D02161B9E2009E23D0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E8C6CF2161B9E2009E23D0 /* Movie.swift */; };
+		64E8C6D22161C1CF009E23D0 /* MovieAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E8C6D12161C1CF009E23D0 /* MovieAPIManager.swift */; };
 		8AA7ED406B5EF7A5842A3146 /* Pods_FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC9C37D7B0A8113442331FC /* Pods_FlixTests.framework */; };
 		DA13E9FB42C112A9720C371F /* Pods_FlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE97E915053A6FA5E12D0691 /* Pods_FlixUITests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +62,8 @@
 		64BB37AE213F87D5001AF36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64BB37C0213FDCDE001AF36A /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 		64BB37C22140A5F7001AF36A /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		64E8C6CF2161B9E2009E23D0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		64E8C6D12161C1CF009E23D0 /* MovieAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPIManager.swift; sourceTree = "<group>"; };
 		7F70EEF15B03393D6B3BDA52 /* Pods_Flix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D1B74B08BFC92397614280 /* Pods-Flix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.debug.xcconfig"; path = "Target Support Files/Pods-Flix/Pods-Flix.debug.xcconfig"; sourceTree = "<group>"; };
 		AA3E83AC0C7009DF12AA79A3 /* Pods-Flix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.release.xcconfig"; path = "Target Support Files/Pods-Flix/Pods-Flix.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +155,7 @@
 		64BB378B213F87D4001AF36A /* Flix */ = {
 			isa = PBXGroup;
 			children = (
+				64E8C6CE2161B983009E23D0 /* Model */,
 				644F9CFF2142318C000BB23F /* Views */,
 				644F9CFE2142316C000BB23F /* ViewControllers */,
 				64BB378C213F87D4001AF36A /* AppDelegate.swift */,
@@ -178,6 +183,15 @@
 				64BB37AE213F87D5001AF36A /* Info.plist */,
 			);
 			path = FlixUITests;
+			sourceTree = "<group>";
+		};
+		64E8C6CE2161B983009E23D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64E8C6CF2161B9E2009E23D0 /* Movie.swift */,
+				64E8C6D12161C1CF009E23D0 /* MovieAPIManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DE50EE992AB389320EA8D4E2 /* Pods */ = {
@@ -405,10 +419,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E8C6D02161B9E2009E23D0 /* Movie.swift in Sources */,
 				64BB37C1213FDCDE001AF36A /* NowPlayingViewController.swift in Sources */,
 				644F9D032142422D000BB23F /* PosterCell.swift in Sources */,
 				644F9D0521424270000BB23F /* SuperheroViewController.swift in Sources */,
 				64BB378D213F87D4001AF36A /* AppDelegate.swift in Sources */,
+				64E8C6D22161C1CF009E23D0 /* MovieAPIManager.swift in Sources */,
 				64BB37C32140A5F7001AF36A /* MovieCell.swift in Sources */,
 				644F9D01214231E5000BB23F /* DetailViewController.swift in Sources */,
 			);
