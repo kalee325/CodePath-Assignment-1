@@ -123,7 +123,7 @@ The challenge I had for improving this app is trying to link the detail of the s
     limitations under the License.
     
     
-# Lab 3 - Flix
+# Lab 3 - Flix - Auto Layout
 
  Flix is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
